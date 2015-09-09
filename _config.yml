@@ -9,6 +9,8 @@ bg-img: hero-img2.jpg
 
 # Build settings
 
+url: http://kbudiman.github.io/portfolio/
+
 markdown: kramdown
 permalink: pretty
 
