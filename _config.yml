@@ -1,0 +1,19 @@
+# Site settings
+title: Artists Theme
+email: artist@email
+description: "Researcher // Developer // Designer"
+
+# Change site content here
+blurb: <p><strong>Lorem ipsum dolor sit amet, consectetur adpiscing elit.</strong> Nunc fermentum odio est, a sodales lectus feugiat a. Phasellus porta vel erat vel sodales. Donec semper nec turpis ac venenatis. Curabitur convallis euismod pretium. Pellentesque rutrum eros a tellus bibendum, id tempus turpis congue. Vivamus felis leo, efficitur non blandit et, mattis eget sapien. Proin mattis, nunc accumsan pulvinar condimentum, nunc felis congue justo, vel aliquet lacus mauris vitae ex. Maecenas finibus sagittis iaculis. Curabitur id mattis metus, vel </p>
+bg-img: hero-img2.jpg
+
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+
+port: 3000
+
+sass:
+  sass_dir: assets/css
+  style: :nested

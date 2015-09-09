@@ -1,0 +1,39 @@
+<section class="alt-section section-work">
+
+	<h3 id="work">Work</h3>
+
+	<div class="work-belt">
+
+		<div class="thumb-wrap">
+			<div class="thumb-container">
+				{% for project in site.data.portfolio.project %}
+					<div class ="thumb-unit" data-folder="{{project.folder}}" style="background-image: url(/assets/img/work/{{project.folder}}/thumb.png)">
+						<div class="thumb-overlay">
+							<strong>{{project.name}}</strong>
+						</div>
+					</div>
+						
+				{% endfor %}
+			</div>
+		</div>
+		
+
+		<div class="work-wrap">
+			<div class="work-container">
+			<div class="work-return">{% include icons/icon-back.html %}</div>
+				<h4 class="project-title">C-TOC Arithmetic</h4>
+				<div class="project-load"></div>
+				
+				<!--div style="width: 600px; height: 500px; background: #ccc"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Aliquam erat volutpat. </p>
+				<div style="width: 600px; height: 500px; background: #ccc"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Aliquam erat volutpat. </p>
+				<div style="width: 600px; height: 500px; background: #ccc"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Aliquam erat volutpat. </p-->
+			</div>
+		</div>
+		
+
+	</div>
+
+</section>

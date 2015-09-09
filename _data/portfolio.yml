@@ -1,0 +1,53 @@
+# Portfolio settings
+title: Kevin Budiman
+description: Thinker • Designer • Researcher
+email: jkevinbudiman@gmail.com
+
+#MENU ITEM LIST
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Contact, url: '#contact'}
+
+#SKILL LIST 
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '10'}
+- {name: Learning, value: '10'}
+- {name: Planning, value: '8'}
+- {name: Research, value: '8'}
+- {name: UX Design, value: '5'}
+- {name: Programming, value: '6'}
+
+
+# -----------------------
+# Work Section
+
+project:
+- {name: C-TOC Arithmetic, folder: 'proj-1'}
+- {name: Where My Noms At, folder: 'proj-2'}
+- {name: C-TOC Pattern Construction, folder: 'proj-3'}
+- {name: Knowledge Translation, folder: 'proj-4'}
+
+# ---------------
+# Contact Section
+
+social:
+- {icon: 'linkedin', link: 'https://ca.linkedin.com/in/kevinbudiman'}
+- {icon: 'instagram', link: ''}
+- {icon: 'twitter', link: ''}
+# can be: 'linkedin' 'instagram' twitter'
+
+
+# Change the site default images and content here!
+logo: 'logo.svg' #This does not work, change in header.html
+bg-img: 'hero-img2.jpg'
+
+# -----------------------------
+# About Section
+avatar: 'candid.jpg'
+blurb: <p><strong>Travis specializes in making things</strong> for human people. Most of the things he makes are <a href="http://travisneilson.com">digital interfaces</a>, but he also puts effort into crafting <a href="http://soundcloud.com/travis-neilson">next-level beats</a> and <a href="http://youtube.com/user/devtipsfordesigners">YouTube videos</a> about making codes happen.</p>
+
+

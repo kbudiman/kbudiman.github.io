@@ -1,0 +1,18 @@
+<header id = "header">
+  <!--div class="logo">{% include icons/logo2.html %}</div-->
+  
+  <nav>
+  	<!--a href="#about-me">About Me</a>
+  	<a href="#projects">Projects</a>
+  	<a href="#work">Work</a>
+  	<a href="#contact">Contact</a-->
+  	{% for item in site.data.portfolio.menu %}
+      <a href="{{ item.url }}"> {{ item.name }} </a>
+    {% endfor %}
+
+  </nav>
+  
+  <h1><span>{{ site.data.portfolio.title }}</span></h1>
+  <p class="kicker">{{ site.data.portfolio.description }}</p>
+  
+</header>
