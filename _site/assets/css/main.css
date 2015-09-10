@@ -629,7 +629,8 @@ footer {
   max-width: 600px;
   margin: 0px auto;
   position: relative;
-  display: none; }
+  display: none;
+  padding: 0 15px; }
   .work-container h4 {
     color: #c99065;
     font-weight: 300;
