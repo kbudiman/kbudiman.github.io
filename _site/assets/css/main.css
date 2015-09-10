@@ -449,7 +449,7 @@ footer {
   .face-lockup .face-img {
     height: 200px;
     width: 200px;
-    background-image: url(assets/img/candid.jpg);
+    background-image: url(../img/candid.jpg);
     order: 2; }
   .face-lockup .icon-glass {
     background: url(assets/img/glass.png); }
