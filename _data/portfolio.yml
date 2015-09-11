@@ -36,8 +36,8 @@ project:
 
 social:
 - {icon: 'linkedin', link: 'https://ca.linkedin.com/in/kevinbudiman'}
-- {icon: 'instagram', link: ''}
-- {icon: 'twitter', link: ''}
+- {icon: 'instagram', link: 'https://instagram.com/jkevinbudiman'}
+- {icon: 'twitter', link: 'https://twitter.com/jkbudiman'}
 # can be: 'linkedin' 'instagram' twitter'
 
 
