@@ -738,7 +738,8 @@ footer {
   overflow-x: hidden; }
   .section-form form {
     max-width: 450px;
-    margin: 0 auto 50px; }
+    margin: 0 auto 50px;
+    padding: 0 20px; }
     .section-form form input, .section-form form textarea {
       border: 3px solid #c99065;
       width: 100%;
@@ -776,3 +777,13 @@ footer {
       margin-bottom: 20px; }
       .section-form form label span {
         display: block; }
+
+@media (max-width: 541px) {
+  form .contact-info-group label {
+    width: 100%; }
+    form .contact-info-group label:nth-child(1) {
+      padding: 0; }
+    form .contact-info-group label:nth-child(2) {
+      padding: 0; }
+  form [type="submit"] {
+    width: 100%; } }
