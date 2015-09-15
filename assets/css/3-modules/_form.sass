@@ -4,6 +4,7 @@
 	form
 		max-width: 450px
 		margin: 0 auto 50px
+		padding: 0 20px
 
 		input, textarea
 			border: 3px solid $accent
@@ -52,3 +53,19 @@
 
 			span
 				display: block
+
+@media (max-width: 541px)
+	form
+		.contact-info-group
+
+			label
+				width: 100%
+
+				&:nth-child(1)
+					padding: 0
+
+				&:nth-child(2)
+					padding: 0
+
+		[type="submit"]
+			width: 100%
