@@ -397,13 +397,6 @@ footer {
       content: "";
       display: table;
       clear: both; }
-    footer .lockup .logo {
-      height: 50px;
-      width: 50px;
-      float: left;
-      margin-right: 30px; }
-      footer .lockup .logo path {
-        fill: rgba(0, 0, 0, 0.5); }
     footer .lockup .content-wrap {
       float: left; }
       footer .lockup .content-wrap a {
