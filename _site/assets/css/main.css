@@ -338,7 +338,7 @@ header {
   background-blend-mode: overlay, normal; }
 
 header {
-  background-position: 30px 20px, 50% 50%;
+  background-position: 20px 15px, 50% 50%;
   background-image: url(../img/logo.svg), url(../img/hero-img2.jpg);
   padding-bottom: 50px; }
   header .logo {
@@ -380,7 +380,7 @@ header {
 
 @media (max-width: 640px) {
   header {
-    background-position: 50% 20px, 50% 50%; }
+    background-position: 50% 25px, 50% 50%; }
     header nav {
       float: none;
       text-align: center;
@@ -730,7 +730,7 @@ footer {
   line-height: 1;
   width: 90%;
   margin: 0px auto 80px;
-  padding-right: 20px; }
+  padding-right: 15px; }
 
 .section-form {
   overflow-x: hidden; }
