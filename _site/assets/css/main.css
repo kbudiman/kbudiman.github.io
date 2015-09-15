@@ -450,18 +450,26 @@ footer {
     height: 200px;
     width: 200px;
     background-image: url(../img/candid.jpg);
-    order: 2; }
-  .face-lockup .icon-glass {
-    background: url(../img/glass.png); }
+    order: 3; }
+  .face-lockup .icon-design {
+    background: url(../img/wireframe.png); }
+  .face-lockup .icon-code {
+    background: url(../img/code.png); }
   .face-lockup .icon-analytics {
     background: url(../img/analytics.png); }
+  .face-lockup .icon-graph {
+    background: url(../img/graph.png); }
   .face-lockup [class^="icon-"] {
     height: 100px;
     width: 100px; }
-    .face-lockup [class^="icon-"].icon-glass {
+    .face-lockup [class^="icon-"].icon-wireframe {
       order: 1; }
+    .face-lockup [class^="icon-"].icon-code {
+      order: 2; }
     .face-lockup [class^="icon-"].icon-analytics {
-      order: 3; }
+      order: 4; }
+    .face-lockup [class^="icon-"].icon-code {
+      order: 5; }
 
 @media screen and (max-width: 650px) {
   .face-lockup {

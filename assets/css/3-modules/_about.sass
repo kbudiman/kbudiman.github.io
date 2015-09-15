@@ -9,20 +9,30 @@
 	.face-img
 		+size(200px)
 		background-image: url(../img/#{$avatar-path})
-		order: 2
+		order: 3
 	
-	.icon-glass
-		background: url(../img/glass.png)
+	.icon-design
+		background: url(../img/wireframe.png)
+
+	.icon-code
+		background: url(../img/code.png)
 
 	.icon-analytics
 		background: url(../img/analytics.png)
 
+	.icon-graph
+		background: url(../img/graph.png)
+
 	[class^="icon-"]
 		+size(100px)
-		&.icon-glass
+		&.icon-wireframe
 			order: 1
+		&.icon-code
+			order: 2
 		&.icon-analytics
-			order: 3
+			order: 4
+		&.icon-code
+			order: 5
 
 @media screen and (max-width: 650px)
 	.face-lockup
