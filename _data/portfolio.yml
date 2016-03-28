@@ -13,12 +13,12 @@ menu:
 #SKILL LIST 
 
 skills:
-- {name: Communication, value: '9'}
+- {name: Communication, value: '10'}
 - {name: Organization, value: '10'}
 - {name: Learning, value: '10'}
 - {name: Planning, value: '8'}
-- {name: Research, value: '8'}
-- {name: UX Design, value: '5'}
+- {name: Research, value: '9'}
+- {name: UX Design, value: '8'}
 - {name: Programming, value: '6'}
 
 
@@ -27,7 +27,7 @@ skills:
 
 project:
 - {name: Brailliac, folder: 'proj-1'}
-- {name: Where My Noms At, folder: 'proj-2'}
+- {name: Arithmetic, folder: 'proj-2'}
 - {name: Pattern Construction, folder: 'proj-3'}
 - {name: Knowledge Translation, folder: 'proj-4'}
 
