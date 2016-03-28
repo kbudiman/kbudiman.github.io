@@ -645,7 +645,8 @@ footer {
     margin: 0 0 20px; }
   .work-container img {
     max-width: 100%;
-    margin-bottom: 20px; }
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .work-container .work-return {
     height: 40px;
     width: 40px;
@@ -659,6 +660,9 @@ footer {
       fill: rgba(0, 0, 0, 0.4); }
     .work-container .work-return:hover {
       opacity: 1; }
+  .work-container .project-load h5 {
+    font-size: 15px;
+    margin: 0 0 4.5px; }
 
 @media (max-width: 740px) {
   .work-container .work-return {
