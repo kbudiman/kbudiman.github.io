@@ -28,7 +28,7 @@ skills:
 project:
 - {name: Brailliac, folder: 'proj-1'}
 - {name: Where My Noms At, folder: 'proj-2'}
-- {name: C-TOC Pattern Construction, folder: 'proj-3'}
+- {name: Pattern Construction, folder: 'proj-3'}
 - {name: Knowledge Translation, folder: 'proj-4'}
 
 # ---------------
