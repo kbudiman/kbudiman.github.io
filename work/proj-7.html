@@ -6,11 +6,116 @@
 </div>
 
 <br />
-<p>
-<b>Methods: </b> <a href="#thematic">Thematic Analysis</a> 
-</p>
+<!--p>
+<i><strong>Skills: </strong><a href="#electronic">electronics</a>, </i> 
+</p-->
 
 <p>
+<h5>Physical Prototyping</h5>
+Moving away from digital interfaces, I built ScopIt to explore the physical aspects of prototyping. ScopIt is a physical map reader with a geography game, to encourage its users to learn some geography and to feel comfortable utilizing paper maps.
+<center>
+		<img src="assets/img/work/proj-7/scopit1.png" alt="ScopIt">
+		<br />
+	</center>
+</p>
+
+<br />
+<h5>Ideation</h5>
+<p>
+	ScopIt evolved from multiple rounds of ideation. My initial concepts revolved around wayfinding and map navigation. One idea consisted of smart shoes in-soles, “Shoe N’ Tell”, that assists navigation by vibrating on the left or right foot. I have also brainstormed other concepts, such as a device that ‘reads’ the Tube map and notifies its user of delays happening in the underground.
+
+	<center>
+		<img src="assets/img/work/proj-7/scopit3.png" alt="ScopIt">
+		<br />
+		<i>Ideation of initial concepts</i>
+
+		<img src="assets/img/work/proj-7/scopit2.png" alt="ScopIt">
+		<i>Storyboard of "Shoe N' Tell"</i>
+	</center>
+</p>
+
+<h5>Hardware Exploration</h5>
+<p>
+	Upon learning how the RFID reader can detect RFID tags in different mediums, I decided to stick with my second concept: the map reader. I envisioned attaching NFC stickers at the back of a paper map and allowing my prototype to detect these stickers and transmit certain information - as if it was 'reading' the map.
+
+	<center>
+		<img src="assets/img/work/proj-7/scopit4.png" alt="ScopIt">
+		<br />
+		<i>RFID tags found in different mediums</i>
+	</center>
+	<br />
+	It was difficult for the RFID reader to detect NFC stickers that are placed close to each other. I then refined my idea into a geography game, which presents questions to users (one at a time) to locate famous landmarks. The following storyboard indicates how a child might use this device in a school or museum.
+
+	<center>
+		<img src="assets/img/work/proj-7/scopit6.png" alt="ScopIt">
+		<br />
+	</center>
+</p>
+
+<h5>Prototyping</h5>
+<h5>i. Digital Fabrication</h5>
+<p>
+	Two prototyping process happened in parallel to each other. The first is digital fabrication, where I tried to explore to form factor of my physical prototype. One idea is to build a magnifying glass, which relates to the gamification idea of searching where the landmarks are. Another concept was a monocle that users can move around the map. For quick and easy prototyping, I started out using cardboards and foams to explore the look and feel of these forms.
+
+	<center>
+		<img src="assets/img/work/proj-7/scopit7.png" alt="ScopIt">
+		<br />
+		<i>Form factor exploration</i>
+	</center>
+</p>
+
+<a name="electronic"><h5>ii. Electronics</h5></a>
+<p>	
+	The second process involves integrating the electronics. I implemented the questions and images to be displayed by the TFT touch shield's LCD screen. The images below depict how the LCD screen ad RFID reader communicate with each other. 
+
+	<center>
+		<img src="assets/img/work/proj-7/scopit9.png" alt="ScopIt">
+		<br />
+	</center>
+
+	<br />
+	I used the following hardware and microcontroller for my project:
+	<center>
+		<img src="assets/img/work/proj-7/scopit10.png" alt="ScopIt">
+		<br />
+	</center>
+</p>
+
+<h5>iii. Combining Form and Electronics</h5>
+<p>	
+	This combination brought some design implications. I quickly realized that the bulkiness of the electronics would affect my form factors. For example, I feared that if I were to use the magnifying glass concept, the handle might break due to the hardware’s weight. This bulkiness also constrained users to hold the prototype with two hands – unlike what I have imagined with the light weight monocle.
+
+	<center>
+		<img src="assets/img/work/proj-7/scopit11.png" alt="ScopIt">
+		<br />
+	</center>
+
+	<br />
+	Informed by my combined cardboard mockup, I created an acrylic container to hold my electronics together. I have considered 3D printing this container. But after speculating on how few cutouts I actually need, I chose to laser cut my design. The short time duration for laser cutting motivated my approach since I plan on iterating my form’s design.
+
+	<center>
+		<img src="assets/img/work/proj-7/scopit13.png" alt="ScopIt">
+		<br />
+		<i>Iterated prototype design</i>
+	</center>
+</p>
+
+<h5>Prototyping Iteration</h5>
+<p>
+	In my third prototype, I also added a slant for the LCD display so that it allows easier viewing for the reader. I enclosed the electronic parts and wirings inside a cloth so no pieces would fall out of the prototype. The RFID reader was sticked at the bottom, outside of the prototype, since it detects the NFC tags better with no materials in-between (such as the acrylic plastic).
+	<center>
+		<img src="assets/img/work/proj-7/scopit15.png" alt="ScopIt">
+	</center>
+</p>
+
+<h5>Future Work</h5>
+<p>
+	A proper prototype evaluation and user evaluation are required to see how ScopIt is used in-the-wild. Current form factor could easily change, depending on how physical maps are laid out and how user interacts with them. Some maps are displayed vertically in museums, on the streets, or classroom walls. ScopIt’s current form factor is appropriate for maps placed across horizontal surfaces. Revisiting the magnifying glass concept would be worthwhile. This concept is suitable for maps displayed on vertical surfaces.
+	<center>
+		<img src="assets/img/work/proj-7/scopit14.png" alt="ScopIt">
+	</center>
+</p>
+<!--p>
 <h5>Qualitative Research</h5>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum vehicula rutrum. Nunc vitae suscipit nisi, et imperdiet ex. Sed arcu ex, molestie vel varius vitae, egestas sit amet eros. Etiam at felis quis tortor ornare eleifend a tristique ex. Phasellus accumsan mi quis auctor sollicitudin. Donec id accumsan urna. Vestibulum cursus nisi eu viverra porttitor. Nunc lacinia tempus eros, in sollicitudin nisl feugiat nec. Suspendisse at neque sodales sem luctus vestibulum sit amet et sem. Nunc sodales urna eget dolor placerat, dapibus accumsan mauris ullamcorper. Integer pretium molestie finibus.
 
@@ -28,4 +133,4 @@ In eget mi quis lectus rutrum luctus nec non orci. Maecenas vehicula urna neque,
 <br />
 <br />
 You can find my published articles in <a href="http://neuroethics.med.ubc.ca/res/kt/kt-minimally-conscious-state-neuroimaging/">here</a>.
-</p>
+</p-->

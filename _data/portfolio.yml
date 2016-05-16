@@ -1,6 +1,6 @@
 # Portfolio settings
 title: Kevin Budiman
-description: Thinker • Designer • Researcher
+description: Researcher • Designer • Programmer
 email: jkevinbudiman@gmail.com
 
 #MENU ITEM LIST
@@ -15,9 +15,7 @@ menu:
 skills:
 - {name: Communication, value: '10'}
 - {name: Organization, value: '10'}
-- {name: Learning, value: '10'}
-- {name: Planning, value: '8'}
-- {name: Research, value: '9'}
+- {name: Research, value: '10'}
 - {name: UX Design, value: '8'}
 - {name: Programming, value: '6'}
 
@@ -27,18 +25,20 @@ skills:
 
 project:
 - {name: Brailliac, folder: 'proj-1'}
+- {name: ScopIt, folder: 'proj-7'}
 - {name: Design Experience, folder: 'proj-5'}
 - {name: Arithmetic, folder: 'proj-2'}
 - {name: Pattern Construction, folder: 'proj-3'}
 - {name: Where My Noms At, folder: 'proj-6'}
 - {name: Knowledge Translation, folder: 'proj-4'}
 
+
 # ---------------
 # Contact Section
 
 social:
 - {icon: 'linkedin', link: 'https://ca.linkedin.com/in/kevinbudiman'}
-- {icon: 'instagram', link: 'https://instagram.com/jkevinbudiman'}
+#- {icon: 'instagram', link: 'https://instagram.com/jkevinbudiman'}
 - {icon: 'twitter', link: 'https://twitter.com/jkbudiman'}
 # can be: 'linkedin' 'instagram' twitter'
 
@@ -50,6 +50,6 @@ bg-img: 'hero-img2.jpg'
 # -----------------------------
 # About Section
 avatar: 'candid.jpg'
-blurb: <p><strong>Kevin is a user experience researcher</strong>. He is currently doing his Master's degree at <a href="https://www.ucl.ac.uk/uclic">University College London</a>. He is passionate about studying interaction design, information architecture, and data visualization.</p>
+blurb: <p><strong>Kevin is a <a href="https://drive.google.com/open?id=0B-fv_8ovAYyDQW9zV3FtLXlZeFk">user experience researcher</a></strong>. He is currently doing his Master's degree at <a href="https://www.ucl.ac.uk/uclic">University College London</a>. He is passionate about studying interaction design, information architecture, and data visualization.</p>
 
 
