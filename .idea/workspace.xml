@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce20848-01d4-4434-9329-91e4f0e9fac7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/portfolio.yml" afterPath="$PROJECT_DIR$/_data/portfolio.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/about.html" afterPath="$PROJECT_DIR$/_includes/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/css/main.css" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/work/proj-1.html" afterPath="$PROJECT_DIR$/_site/work/proj-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/work/proj-2.html" afterPath="$PROJECT_DIR$/_site/work/proj-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/work/proj-3.html" afterPath="$PROJECT_DIR$/_site/work/proj-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/work/proj-6.html" afterPath="$PROJECT_DIR$/_site/work/proj-6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/work/proj-7.html" afterPath="$PROJECT_DIR$/_site/work/proj-7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-modules/_about.sass" afterPath="$PROJECT_DIR$/assets/css/3-modules/_about.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/proj-1.html" afterPath="$PROJECT_DIR$/work/proj-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/proj-2.html" afterPath="$PROJECT_DIR$/work/proj-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/proj-3.html" afterPath="$PROJECT_DIR$/work/proj-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/proj-6.html" afterPath="$PROJECT_DIR$/work/proj-6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/proj-7.html" afterPath="$PROJECT_DIR$/work/proj-7.html" />
     </list>
     <ignored path="myPortfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="proj-7.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="proj-7.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/proj-7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="330">
               <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
@@ -63,7 +54,7 @@
       <file leaf-file-name="proj-1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/proj-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="435">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
@@ -78,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/_site/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,12 +105,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_about.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/3-modules/_about.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="285">
+              <caret line="19" column="99" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,13 +135,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/css/3-modules/_about.sass" />
         <option value="$PROJECT_DIR$/_data/portfolio.yml" />
         <option value="$PROJECT_DIR$/work/proj-1.html" />
         <option value="$PROJECT_DIR$/work/proj-3.html" />
         <option value="$PROJECT_DIR$/work/proj-2.html" />
         <option value="$PROJECT_DIR$/work/proj-6.html" />
         <option value="$PROJECT_DIR$/work/proj-7.html" />
+        <option value="$PROJECT_DIR$/assets/css/3-modules/_about.sass" />
+        <option value="$PROJECT_DIR$/_includes/about.html" />
       </list>
     </option>
   </component>
@@ -423,12 +427,12 @@
       <workItem from="1468163062520" duration="3649000" />
       <workItem from="1468334820849" duration="8000" />
       <workItem from="1469033961079" duration="369000" />
-      <workItem from="1470829676650" duration="8131000" />
+      <workItem from="1470829676650" duration="10394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12157000" />
+    <option name="totallyTimeSpent" value="14420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="63" width="1396" height="837" extended-state="0" />
@@ -528,7 +532,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -600,7 +606,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -672,7 +680,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -722,42 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/3-modules/_about.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/3-modules/_work.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -813,9 +791,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/proj-7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/3-modules/_work.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/work/proj-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="435">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
@@ -825,14 +823,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/proj-7.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/3-modules/_about.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="99" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
           <folding>
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

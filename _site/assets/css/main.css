@@ -444,6 +444,8 @@ footer {
     width: 200px;
     background-image: url(../img/candid.jpg);
     order: 3; }
+  .face-lockup .process {
+    background-img: url(../img/process.png); }
   .face-lockup .icon-design {
     background: url(../img/wireframe.png); }
   .face-lockup .icon-code {
