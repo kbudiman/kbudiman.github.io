@@ -30,7 +30,7 @@ project:
 - {name: Arithmetic, folder: 'proj-2'}
 - {name: Pattern Construction, folder: 'proj-3'}
 - {name: Where My Noms At, folder: 'proj-6'}
-- {name: Knowledge Translation, folder: 'proj-4'}
+#- {name: Knowledge Translation, folder: 'proj-4'}
 
 
 # ---------------
@@ -50,6 +50,6 @@ bg-img: 'hero-img2.jpg'
 # -----------------------------
 # About Section
 avatar: 'candid.jpg'
-blurb: <p><strong>Kevin is a <a href="https://drive.google.com/open?id=0B-fv_8ovAYyDQW9zV3FtLXlZeFk">user experience researcher</a></strong>. He is currently doing his Master's degree at <a href="https://www.ucl.ac.uk/uclic">University College London</a>. He is passionate about studying interaction design, information architecture, and data visualization.</p>
+blurb: <p><strong>I am a <a href="https://drive.google.com/open?id=0B-fv_8ovAYyDQW9zV3FtLXlZeFk">User Experience Researcher</a></strong>, who is completing my MSc. Human-Computer Interaction degree at <a href="https://www.ucl.ac.uk/uclic">University College London</a>. I spent two years working in the enterprise mobile industry and academia. In all of my work, I follow an iterative user-centred approach to balance user needs against technical feasibilities and business requirements.</p>
 
 
