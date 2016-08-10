@@ -25,6 +25,7 @@ skills:
 
 project:
 - {name: Brailliac, folder: 'proj-1'}
+- {name: Lambeth, folder: 'proj-8'}
 - {name: ScopIt, folder: 'proj-7'}
 - {name: Design Experience, folder: 'proj-5'}
 - {name: Arithmetic, folder: 'proj-2'}
