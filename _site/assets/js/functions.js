@@ -9,10 +9,18 @@ $(function() {
 	workBelt();
 	workLoad();
 
+	hideWork();
 	$("header h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '72px' });
 
 	//$(".biglink").fitText(1.2, { minFontSize: '20px', maxFontSize: '72px' });
 });
+
+function hideWork() {
+
+	$('#hide').click(function() {
+		$('.thumb-unit[data-folder="proj-1"]').hide();
+	});
+}
 
 function smoothScroll (duration) {
 	$('a[href^="#"]').on('click', function(event) {

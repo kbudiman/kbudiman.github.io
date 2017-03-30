@@ -1,7 +1,7 @@
 # Portfolio settings
 title: Kevin Budiman
 description: Researcher • Designer • Programmer
-email: jkevinbudiman@gmail.com
+email: kbudimanux@gmail.com
 
 #MENU ITEM LIST
 
@@ -24,8 +24,8 @@ skills:
 # Work Section
 
 project:
-- {name: Brailliac, folder: 'proj-1'}
 - {name: Lambeth, folder: 'proj-8'}
+- {name: Brailliac, folder: 'proj-1'}
 - {name: ScopIt, folder: 'proj-7'}
 - {name: Design Experience, folder: 'proj-5'}
 - {name: Arithmetic, folder: 'proj-2'}
@@ -42,6 +42,7 @@ social:
 #- {icon: 'instagram', link: 'https://instagram.com/jkevinbudiman'}
 - {icon: 'twitter', link: 'https://twitter.com/jkbudiman'}
 # can be: 'linkedin' 'instagram' twitter'
+- {icon: 'behance' ,link: 'https://www.behance.net/kevinbudiman' }
 
 
 # Change the site default images and content here!
@@ -51,6 +52,6 @@ bg-img: 'hero-img2.jpg'
 # -----------------------------
 # About Section
 avatar: 'candid.jpg'
-blurb: <p><strong>I am a <a href="https://drive.google.com/file/d/0B-fv_8ovAYyDZmR6dVNBR1lSS2c/view?usp=sharing">User Experience Researcher</a></strong> who completed my MSc. Human-Computer Interaction from <a href="https://www.ucl.ac.uk/uclic">University College London</a>. I spent two years working in the enterprise mobile industry and academia. In all of my work, I follow an iterative user-centred approach to balance user needs against technical feasibilities and business requirements.</p>
+blurb: <p><strong>I am a <a href="https://drive.google.com/file/d/0B-fv_8ovAYyDZmR6dVNBR1lSS2c/view?usp=sharing">UX Researcher and Designer</a></strong> with over two years of professional experience in mobile and enterprise industry. I am also a <a href="https://www.ucl.ac.uk/uclic">UCLIC alumni</a> and I completed the MSc. in Human-Computer Interaction program in 2016. During my spare time, you can find me <a href="https://www.behance.net/kevinbudiman">redesigning</a> some websites or trekking along some Pacific Northwest mountains.</p>
 
 
