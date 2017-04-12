@@ -692,7 +692,7 @@ footer {
     cursor: pointer;
     opacity: 0.5;
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     left: -60px; }
     .work-container .work-return-footer path {
       fill: rgba(0, 0, 0, 0.4); }
@@ -701,6 +701,8 @@ footer {
 
 @media (max-width: 740px) {
   .work-container .work-return {
+    left: 0px; }
+  .work-container .work-return-footer {
     left: 0px; }
   .work-container h4 {
     margin-left: 60px; } }
