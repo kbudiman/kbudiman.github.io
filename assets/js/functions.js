@@ -17,8 +17,33 @@ $(function() {
 
 function hideWork() {
 
-	$('#hide').click(function() {
-		$('.thumb-unit[data-folder="proj-1"]').hide();
+	$('#work-all').click(function() {
+		$('.thumb-unit[data-folder="proj-8"], [data-folder="proj-1"], [data-folder="proj-2"], [data-folder="proj-3"], [data-folder="proj-7"], [data-folder="proj-6"]').show();
+
+		if($('.work-container').is(':visible')) {
+			$('.work-belt').css('left', '0%');
+			$('.work-container').hide(800);
+		}
+	});
+
+	$('#work-tangible').click(function() {
+		$('.thumb-unit[data-folder="proj-8"], [data-folder="proj-2"], [data-folder="proj-3"], [data-folder="proj-6"]').hide();
+		$('.thumb-unit[data-folder="proj-1"], [data-folder="proj-7"]').show();
+
+		if($('.work-container').is(':visible')) {
+			$('.work-belt').css('left', '0%');
+			$('.work-container').hide(800);
+		}
+	});
+
+	$('#work-digital').click(function() {
+		$('.thumb-unit[data-folder="proj-1"], [data-folder="proj-7"]').hide();
+		$('.thumb-unit[data-folder="proj-8"], [data-folder="proj-2"], [data-folder="proj-3"], [data-folder="proj-6"]').show();
+
+		if($('.work-container').is(':visible')) {
+			$('.work-belt').css('left', '0%');
+			$('.work-container').hide(800);
+		}
 	});
 }
 

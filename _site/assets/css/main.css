@@ -326,7 +326,7 @@ h3 {
 @media screen and (max-width: 480px) {
   h3 {
     padding: 50px 0 50px; } }
-h3, header nav a, header .kicker, footer .lockup .content-wrap a {
+h3, header nav a, header .kicker, footer .lockup .content-wrap a, .section-work nav a {
   font-size: 14px;
   font-weight: 900;
   text-transform: uppercase; }
@@ -531,6 +531,24 @@ footer {
 
 .section-work {
   overflow-x: hidden; }
+  .section-work nav {
+    margin: auto;
+    padding: 0 0 30px 0;
+    text-align: center; }
+    .section-work nav a {
+      display: inline-block;
+      margin-left: 25px;
+      color: #c99065;
+      text-transform: none; }
+      .section-work nav a:hover {
+        opacity: 0.5; }
+      .section-work nav a:active {
+        text-decoration: underline; }
+      .section-work nav a:focus {
+        background-color: #c99065;
+        color: #FFFFFF;
+        padding: 5px 15px;
+        border-radius: 5px; }
 
 .work-belt {
   width: 200%;
