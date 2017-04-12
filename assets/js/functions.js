@@ -43,7 +43,7 @@ function workBelt() {
 		$('.work-container').show();
 	});
 
-	$('.work-return').click(function() {
+	$('.work-return, .work-return-footer').click(function() {
 		$('.work-belt').css('left', '0%');
 		$('.work-container').hide(800);
 	});

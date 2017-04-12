@@ -93,7 +93,7 @@
 
 
 	.work-return
-		size: 40px
+		+size(40px)
 		cursor: pointer
 		opacity: 0.5
 		width: 100%
@@ -105,6 +105,7 @@
 		&:hover
 			opacity: 1
 
+
 	.project-load
 		h5
 			font-size: 25px
@@ -113,6 +114,19 @@
 		h2
 			font-size: 18px
 			margin: 0 0 4.5px
+
+	.work-return-footer
+		+size(40px)
+		cursor: pointer
+		opacity: 0.5
+		//width: 100%
+		+position(absolute, null null 50px -60px)
+
+		path
+			fill: rgba(0,0,0,0.4)
+
+		&:hover
+			opacity: 1
 
 
 @media (max-width: 740px)
