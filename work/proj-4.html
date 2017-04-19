@@ -1,21 +1,101 @@
-<div class="video_container">
-	<div class="video-container">
-         <iframe src="https://www.youtube.com/embed/kwQ3ctBs5DM" frameborder="0" width="560" height="315"></iframe>
-	</div>
-</div>
-
-<br />
+<img src="assets/img/work/proj-4/Brook-macbook.jpg" alt="Brook">
 <p>
-<b>Collaborators: </b>Dr. Judy Illes, Dr. Grace Lee, Dr. Adrian Byram
+	<b>Collaborators: </b> Cathrine Schiøler, Jennifer Sheahan
+	<br />
+	<b>Project Type: </b><i>UI Design, UX Design, User Research</i>
 </p>
 
-<p>
-<h5>Qualitative Research</h5>
-I tried to address some of the misconceptions that were found around the topic of Minimally Conscious State and Neuroimaging. To achieve this, I <b>transcribed expert interviews</b> and conducted <b>literature reviews</b> to communicate key scientific concepts for the public. 
-<br />
-<br />
-Through the use of <b>thematic analysis and coding</b>, I identified main themes that were found in the media's portrayal of this topic. By applying <b>knowledge translation</b>, I validated these themes with findings from scientific journals and composed articles that properly described the topic. Knowledge translation allowed me to write these articles in a language more suitable for the public, while still maintaining the validity backed by scientific journals.
-<br />
-<br />
-You can find my published articles in <a href="http://neuroethics.med.ubc.ca/res/kt/kt-minimally-conscious-state-neuroimaging/">here</a>.
+<h5>CHALLENGE</h5>
+<p>Brook.org.uk was going through an online transition. Joining this transition, I decided to analyze their current ecommerce platform to provide recommendations that allow users to purchase resources from the site.
 </p>
+
+<hr style="border-top: 3px solid #ccc">
+<h5>MY ROLE</h5>
+<p>
+	I acted as a user researcher and UI designer in this project.
+</p>
+
+<hr style="border-top: 3px solid #ccc">
+<h5>APPROACH</h5>
+<h2>i. Establishing Requirements</h2>
+<p>
+	I tried to dig deeper to find out who are the users of Brook’s shop by speaking with Brook’s digital platform representative. From this discussion, I was informed that these users consist of health professionals who are seeking to obtain educational resources for their school or clinic. I <b>created the following persona to capture these users:</b>
+
+	<img src="assets/img/work/proj-4/Brook-Persona.jpg" alt="Brook-persona" style="margin-left: auto; margin-right: auto; display: block">
+	<br />
+</p>
+
+<h2><i>Heuristic Evaluation</i></h2>
+<p>
+	To get a better idea of how the ecommerce was laid out, I partnered with two other UX researchers and conducted an expert Nielsen’s heuristic evaluation. This evaluation allowed me to identify several usability problems that may hinder from using the shop. In one issue, the search functionality did not return any products that cover the topic of alcohol (which do exist) even though the key word ‘drinking’ was searched.
+
+	<img src="assets/img/work/proj-4/Brook-HE-Search.jpg" alt="Brook-Heuristic-evaluation" style="margin-left: auto; margin-right: auto; display: block">
+</p>
+
+<br />
+
+<h2><i>User Evaluation</i></h2>
+<p>
+	Although heuristic evaluation identified a breadth of usability problems with the ecommerce platform, I wanted to confirm which issue would hinder users from successfully purchasing their desired products. To assess this, I recruited and directed user studies with 3 users (2 nursing students and 1 medical student). I gathered their feedback and prioritized two painpoints that were blocking their shopping experience:
+	<br />
+	<br />
+	<b>Painpoint #1 – Search functionality is broken with no available means of recovery for users
+	</b>
+	<br />
+	All users were frustrated since some keywords returned no search results. This forced them to manually go through the product categories to search for their desired product.
+
+	<br />
+	<br />
+	<b>Painpoint #2 – Form fields in the payment contact detail offer no indication on the correct input required from users.
+	</b>
+	<br />
+	Users failed the checkout process since they did not provide their surname in the contact details. A billing surname error was presented but users do not understand what the error is referring to.
+
+	<img src="assets/img/work/proj-4/Brook-BillingError.png" alt="Brook-Heuristic-evaluation" style="margin-left: auto; margin-right: auto; display: block">
+</p>
+
+<br />
+
+<h2><i>Task Flow</i></h2>
+<p>
+	Based on my user observations, I composed a task flow diagram to better visualize where these painpoints are occurring as a user tries to purchase a product. The two painpoints are highlighted in green within the flow.
+	<img src="assets/img/work/proj-4/Brook-TaskFlow.jpg" alt="Brook-task-flow" style="margin-left: auto; margin-right: auto; display: block">
+</p>
+
+<br />
+<h2>ii. Ideation</h2>
+<p>Informed by these findings, I began to sketch out some interfaces for the search and payment form.
+	<img src="assets/img/work/proj-4/Brook-sketches.jpg" alt="Brook-sketch" style="margin-left: auto; margin-right: auto; display: block">
+</p>
+
+<br />
+<h2>iii. Prototyping</h2>
+<p>
+	After drawing out several ideas, I then filtered them out and chose ideas that integrated best design practices for search and checkout form. I used Sketch to create a high-fidelity mock-up for these interface design.
+	<br />
+	<br />
+	<b>Painpoint #1 - Search functionality is broken with no available means of recovery for users</b>
+	<br/>
+	<b>Design Solution: </b>Integrating the design from the mother-of-all-searches (i.e. Google search), I proposed an auto-fill search form to help users with their search input.
+	<img src="assets/img/work/proj-4/Brook-Search-Autofill.jpg" alt="Brook-search-solution-1" style="margin-left: auto; margin-right: auto; display: block">
+
+	<br />
+	Even if the search returned no results, I also added search suggestions to encourage users to explore other relevant products available in the shop.
+	<img src="assets/img/work/proj-4/Brook-Search.jpg" alt="Brook-search-solution-1" style="margin-left: auto; margin-right: auto; display: block">
+
+	<br />
+	<b>Painpoint #2 - Form fields in the payment contact detail offer no indication on the correct input required from users.</b>
+	<b>Design Solution: </b>Incorporating elements from Andrew Coyle’s best practice for online forms, I proposed the following interface...
+	<img src="assets/img/work/proj-4/Brook-Checkout.jpg" alt="Brook-search-solution-1" style="margin-left: auto; margin-right: auto; display: block">
+	I eliminated the ambiguous Billing Surname error and specified errors made by users inline - after they have entered the text in the ‘name’ input field. Additionally, users’ input will be validated (via the checkmark or exclamation mark icon) after they have entered their input and exited the form.
+</p>
+
+<hr style="border-top: 3px solid #ccc">
+<h5>RESULTS</h5>
+<h2>Evaluation and Future Considerations</h2>
+<p>
+	Due to the time frame of this project, I was unable to validate my design via an interactive prototype with users. However, this is a crucial step that I will integrate in my design if I revisit this project.
+</p>
+<br/>
+<br/>
+<br/>

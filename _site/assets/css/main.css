@@ -259,8 +259,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.38; }
 
 .big, h4 {
-  font-size: 22px;
-  line-height: 1.38; }
+  font-size: 25px;
+  line-height: 1.38;
+  text-align: center;
+  color: #c99065;
+  text-transform: uppercase; }
 
 .small, small {
   font-size: 10px;
