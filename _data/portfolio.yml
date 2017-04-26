@@ -31,7 +31,7 @@ project:
 - {name: Arithmetic, folder: 'proj-2'}
 - {name: Pattern Construction, folder: 'proj-3'}
 - {name: ScopIt, folder: 'proj-7'}
-#- {name: Where My Noms At, folder: 'proj-6'}
+- {name: Where My Noms At, folder: 'proj-6'}
 
 
 # ---------------
