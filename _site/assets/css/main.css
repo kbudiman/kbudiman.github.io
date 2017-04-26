@@ -342,7 +342,7 @@ header {
 
 header {
   background-position: 20px 15px, 50% 50%;
-  background-image: url(../img/logo.svg), url(../img/hero-img2.jpg);
+  background-image: url(../img/logo.svg), url(../img/antelope-bg.jpg);
   padding-bottom: 50px; }
   header .logo {
     height: 50px;
@@ -391,7 +391,7 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background: url(../img/pitt.jpg) center center;
+  background: url(../img/antelope-footer.jpg) center center;
   background-size: cover;
   overflow: hidden; }
   footer .lockup {

@@ -31,7 +31,7 @@ project:
 - {name: Arithmetic, folder: 'proj-2'}
 - {name: Pattern Construction, folder: 'proj-3'}
 - {name: ScopIt, folder: 'proj-7'}
-- {name: Where My Noms At, folder: 'proj-6'}
+#- {name: Where My Noms At, folder: 'proj-6'}
 
 
 # ---------------
@@ -47,7 +47,8 @@ social:
 
 # Change the site default images and content here!
 logo: 'logo.svg' #This does not work, change in header.html
-bg-img: 'hero-img2.jpg'
+#bg-img: 'hero-img2.jpg'
+bg-img: 'antelope-bg.jpg'
 
 # -----------------------------
 # About Section
