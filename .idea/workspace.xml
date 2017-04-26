@@ -31,11 +31,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proj-4.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="proj-4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/proj-4.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="294" selection-start-line="21" selection-start-column="294" selection-end-line="21" selection-end-column="294" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proj-2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/proj-2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proj-3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/proj-3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -78,8 +98,6 @@
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/work/proj-5.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/work/proj-3.html" />
-        <option value="$PROJECT_DIR$/work/proj-2.html" />
         <option value="$PROJECT_DIR$/assets/css/3-modules/_work.sass" />
         <option value="$PROJECT_DIR$/work/proj-1.html" />
         <option value="$PROJECT_DIR$/work/proj-7.html" />
@@ -91,6 +109,8 @@
         <option value="$PROJECT_DIR$/assets/css/2-base/_base.sass" />
         <option value="$PROJECT_DIR$/_includes/contact.html" />
         <option value="$PROJECT_DIR$/work/proj-4.html" />
+        <option value="$PROJECT_DIR$/work/proj-2.html" />
+        <option value="$PROJECT_DIR$/work/proj-3.html" />
       </list>
     </option>
   </component>
@@ -131,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,7 +269,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,12 +379,13 @@
       <workItem from="1491964225066" duration="10257000" />
       <workItem from="1491975849871" duration="623000" />
       <workItem from="1492474199333" duration="7531000" />
-      <workItem from="1492629487934" duration="40000" />
+      <workItem from="1492629487934" duration="71000" />
+      <workItem from="1493164225891" duration="1855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71557000" />
+    <option name="totallyTimeSpent" value="73443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="63" width="1396" height="837" extended-state="0" />
@@ -580,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/proj-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="87" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/proj-5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -605,13 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/proj-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -764,6 +771,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="294" selection-start-line="21" selection-start-column="294" selection-end-line="21" selection-end-column="294" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/proj-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/proj-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
           <folding />
         </state>
       </provider>
