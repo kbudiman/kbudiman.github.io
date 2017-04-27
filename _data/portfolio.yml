@@ -48,7 +48,7 @@ social:
 # Change the site default images and content here!
 logo: 'logo.svg' #This does not work, change in header.html
 #bg-img: 'hero-img2.jpg'
-bg-img: 'antelope-bg.jpg'
+bg-img: 'antelope-header.jpg'
 
 # -----------------------------
 # About Section
