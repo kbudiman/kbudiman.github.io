@@ -342,7 +342,7 @@ header {
 
 header {
   background-position: 20px 15px, 50% 50%;
-  background-image: url(../img/logo.svg), url(../img/antelope-bg.jpg);
+  background-image: url(../img/logo.svg), url(../img/antelope-header.jpg);
   padding-bottom: 50px; }
   header .logo {
     height: 50px;
