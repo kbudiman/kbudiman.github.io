@@ -1,13 +1,13 @@
 # Portfolio settings
 title: Kevin Budiman
-description: Product Analyst • User Researcher
+description: Product Management • User Researcher
 email: kbudimanux@gmail.com
 
 #MENU ITEM LIST
 
 menu:
 - {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
+- {name: Academic, url: '#work'}
 - {name: Contact, url: '#contact'}
 
 #SKILL LIST 
